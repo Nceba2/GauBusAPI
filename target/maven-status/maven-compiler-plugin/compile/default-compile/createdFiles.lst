@@ -1,2 +1,4 @@
 com/gaubusapi/GauBusAPI/GauBusApiApplication.class
+Modal/tripManager.class
 com/gaubusapi/GauBusAPI/ServletInitializer.class
+Controller/RequestController.class
