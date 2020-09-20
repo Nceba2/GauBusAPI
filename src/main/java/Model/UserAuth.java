@@ -3,26 +3,24 @@ package Model;
 import org.json.simple.JSONObject;
 
 public class UserAuth implements UserAuth_interface {
-    private JSONObject response;
 
     public JSONObject Register(JSONObject newUser){
-        response = new JSONObject();
-        response.put("results","success");
-
-        return response;
+        ServiceManager_interface iServiceManager = new ServiceManager();
+        return iServiceManager.registerUser(
+                (String) newUser.get("name"),
+                (String) newUser.get("suename"),
+                (String) newUser.get("email"),
+                (String) newUser.get("password"),
+                (String) newUser.get("confirmPassword"));
     }
 
     public JSONObject Login(JSONObject User){
-        response = new JSONObject();
-        response.put("results","success");
-
-        return response;
+        ServiceManager_interface iServiceManager = new ServiceManager();
+        return iServiceManager.loginUser( (String) User.get("email"), (String) User.get("password"));
     }
 
     public JSONObject Verify(JSONObject token){
-        response = new JSONObject();
-        response.put("results","success");
-
-        return response;
+        ServiceManager_interface iServiceManager = new ServiceManager();
+        return iServiceManager.verifyToken( (String) token.get("token"));
     }
 }

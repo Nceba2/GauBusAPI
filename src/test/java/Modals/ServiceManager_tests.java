@@ -9,19 +9,40 @@ import org.junit.runner.RunWith;
 
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.sql.SQLException;
+
 @RunWith(SpringRunner.class)
 public class ServiceManager_tests {
-    private JSONObject ticketJson;
+    private JSONObject expectationJson;
 
     @Before
     public void initialValues(){
-        ticketJson = new JSONObject();
+        expectationJson = new JSONObject();
     }
 
     @Test
-    public void ServiceOject_test_returnsBusStops() {
+    public void ServiceOject_test_getAllStops_pass(){
         ServiceManager_interface iServiceManager = new ServiceManager();
-        System.out.println(iServiceManager.getAllGauBus());
         Assert.assertNotEquals("failed",iServiceManager.getAllGauBus());
+    }
+
+    @Test
+    public void ServiceOject_test_register_pass(){
+        expectationJson.put("status","user registered");
+        ServiceManager_interface iServiceManager = new ServiceManager();
+        Assert.assertEquals(expectationJson,
+                iServiceManager.registerUser(
+                        "Tom",
+                        "Dlamini",
+                        "TestingTom@hotmail.com",
+                        "pass@77","pass@77"));
+    }
+
+    @Test
+    public void ServiceOject_test_login_pass(){
+        expectationJson.put("status","user registered");
+        ServiceManager_interface iServiceManager = new ServiceManager();
+        Assert.assertNotEquals("incorrect email or password",
+                iServiceManager.loginUser("TestingTom@hotmail.com","pass@77"));
     }
 }
