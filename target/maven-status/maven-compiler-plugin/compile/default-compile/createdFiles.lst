@@ -1,4 +1,12 @@
+Model/UserAuth_interface.class
+Model/PDFWriter.class
+Model/BusStop_interface.class
+Model/ServiceManager.class
+Model/UserAuth.class
+Model/IPDFWriter.class
+Model/tripManager.class
+Model/ServiceManager_interface.class
 com/gaubusapi/GauBusAPI/GauBusApiApplication.class
-Modal/tripManager.class
 com/gaubusapi/GauBusAPI/ServletInitializer.class
 Controller/RequestController.class
+Model/BusStop.class

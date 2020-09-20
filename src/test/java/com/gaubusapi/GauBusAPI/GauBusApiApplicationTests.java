@@ -1,4 +1,6 @@
 package com.gaubusapi.GauBusAPI;
+import Model.BusStop;
+import Model.BusStop_interface;
 import org.json.simple.JSONObject;
 import org.junit.*;
 import org.json.simple.JSONArray;
@@ -6,14 +8,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import org.springframework.boot.test.context.TestConfiguration;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.TestExecutionListeners;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.support.AnnotationConfigContextLoader;
+import org.springframework.test.context.junit4.SpringRunner;
 
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = TestConfiguration.class, loader = AnnotationConfigContextLoader.class)
+@RunWith(SpringRunner.class)
 public class GauBusApiApplicationTests {
 	private JSONObject ticketJson;
 
@@ -33,5 +30,10 @@ public class GauBusApiApplicationTests {
 		Assert.assertEquals("22-09-2020",date);
 	}
 
+	@Test
+	public void allBusStops_test_JsonResponce(){
+		BusStop_interface iBusStop = new BusStop();
+		Assert.assertEquals("success",iBusStop.allBusStops().get("results"));
+	}
 }
 

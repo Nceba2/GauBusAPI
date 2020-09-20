@@ -1,1 +1,5 @@
+Modals/ServiceManager_tests.class
 com/gaubusapi/GauBusAPI/GauBusApiApplicationTests.class
+Controller/RequestControllerTests.class
+Modals/TripManagerTests.class
+Modals/PDFwriterTests.class

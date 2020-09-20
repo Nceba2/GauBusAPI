@@ -1,4 +1,12 @@
+/Users/nceba/IdeaProjects/GauBusAPI/src/main/java/Model/BusStop.java
+/Users/nceba/IdeaProjects/GauBusAPI/src/main/java/Model/ServiceManager_interface.java
 /Users/nceba/IdeaProjects/GauBusAPI/src/main/java/com/gaubusapi/GauBusAPI/ServletInitializer.java
+/Users/nceba/IdeaProjects/GauBusAPI/src/main/java/Model/PDFWriter.java
+/Users/nceba/IdeaProjects/GauBusAPI/src/main/java/Model/BusStop_interface.java
 /Users/nceba/IdeaProjects/GauBusAPI/src/main/java/Controller/RequestController.java
-/Users/nceba/IdeaProjects/GauBusAPI/src/main/java/Modal/tripManager.java
+/Users/nceba/IdeaProjects/GauBusAPI/src/main/java/Model/UserAuth_interface.java
 /Users/nceba/IdeaProjects/GauBusAPI/src/main/java/com/gaubusapi/GauBusAPI/GauBusApiApplication.java
+/Users/nceba/IdeaProjects/GauBusAPI/src/main/java/Model/ServiceManager.java
+/Users/nceba/IdeaProjects/GauBusAPI/src/main/java/Model/IPDFWriter.java
+/Users/nceba/IdeaProjects/GauBusAPI/src/main/java/Model/UserAuth.java
+/Users/nceba/IdeaProjects/GauBusAPI/src/main/java/Model/tripManager.java

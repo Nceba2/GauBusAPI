@@ -1,0 +1,7 @@
+package Model;
+//
+//import org.json.*;
+//import org.json.simple.JSONObject;
+
+public class tripManager {
+}
