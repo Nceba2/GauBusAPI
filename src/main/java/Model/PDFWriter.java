@@ -8,7 +8,7 @@ import com.itextpdf.text.pdf.parser.PdfTextExtractor;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class PDFWriter implements IPDFWriter {
+public class PDFWriter implements PDFWriter_interface {
 
     @Override
     public void doWrite(String header, String Message, String newFile) throws IOException, DocumentException{

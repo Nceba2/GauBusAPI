@@ -1,4 +1,4 @@
-Modals/ServiceManager_tests.class
+Modals/DatabaseService_tests.class
 com/gaubusapi/GauBusAPI/GauBusApiApplicationTests.class
 Modals/UserAuthTests.class
 Controller/RequestControllerTests.class

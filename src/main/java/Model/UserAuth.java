@@ -5,7 +5,7 @@ import org.json.simple.JSONObject;
 public class UserAuth implements UserAuth_interface {
 
     public JSONObject Register(JSONObject newUser){
-        ServiceManager_interface iServiceManager = new ServiceManager();
+        DatabaseService_interface iServiceManager = new DatabaseService();
         return iServiceManager.registerUser(
                 (String) newUser.get("name"),
                 (String) newUser.get("suename"),
@@ -15,12 +15,12 @@ public class UserAuth implements UserAuth_interface {
     }
 
     public JSONObject Login(JSONObject User){
-        ServiceManager_interface iServiceManager = new ServiceManager();
+        DatabaseService_interface iServiceManager = new DatabaseService();
         return iServiceManager.loginUser( (String) User.get("email"), (String) User.get("password"));
     }
 
     public JSONObject Verify(JSONObject token){
-        ServiceManager_interface iServiceManager = new ServiceManager();
+        DatabaseService_interface iServiceManager = new DatabaseService();
         return iServiceManager.verifyToken( (String) token.get("token"));
     }
 }

@@ -1,7 +1,5 @@
 package Modals;
 
-import Model.ServiceManager;
-import Model.ServiceManager_interface;
 import Model.UserAuth;
 import Model.UserAuth_interface;
 import org.json.simple.JSONObject;

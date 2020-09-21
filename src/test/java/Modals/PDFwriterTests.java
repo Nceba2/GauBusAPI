@@ -1,5 +1,5 @@
 package Modals;
-import Model.IPDFWriter;
+import Model.PDFWriter_interface;
 import Model.PDFWriter;
 import com.itextpdf.text.DocumentException;
 import org.junit.Test;
@@ -21,7 +21,7 @@ public class PDFwriterTests {
         message = "hello test";
         String expect = "PAID\n"+header+"\n"+message;
 
-        IPDFWriter pdfWriter = new PDFWriter();
+        PDFWriter_interface pdfWriter = new PDFWriter();
         pdfWriter.doWrite(header, message,"test");
 
         assertEquals(expect,pdfWriter.doRead("test"));
@@ -32,7 +32,7 @@ public class PDFwriterTests {
         message = "hello test";
         String expect = "PAID\n"+"null"+"\n"+"null";
 
-        IPDFWriter pdfWriter = new PDFWriter();
+        PDFWriter_interface pdfWriter = new PDFWriter();
         pdfWriter.doWrite(header, message,"test");
 
         assertEquals(expect,pdfWriter.doRead("test"));
@@ -43,7 +43,7 @@ public class PDFwriterTests {
         message = null;
         String expect = "PAID\n"+"null"+"\n"+"null";
 
-        IPDFWriter pdfWriter = new PDFWriter();
+        PDFWriter_interface pdfWriter = new PDFWriter();
         pdfWriter.doWrite(header, message,"test");
 
         assertEquals(expect,pdfWriter.doRead("test"));
@@ -54,7 +54,7 @@ public class PDFwriterTests {
         message = "hello test";
         String expect = "PAID\n"+header+"\n"+message;
 
-        IPDFWriter pdfWriter = new PDFWriter();
+        PDFWriter_interface pdfWriter = new PDFWriter();
         pdfWriter.doWrite(header, message,null);
 
         assertEquals(expect,pdfWriter.doRead(null));
@@ -65,7 +65,7 @@ public class PDFwriterTests {
         message = null;
         String expect = "PAID\n"+"null"+"\n"+"null";
 
-        IPDFWriter pdfWriter = new PDFWriter();
+        PDFWriter_interface pdfWriter = new PDFWriter();
         pdfWriter.doWrite(header, message,"test");
 
         assertEquals(expect,pdfWriter.doRead("test"));
@@ -76,7 +76,7 @@ public class PDFwriterTests {
         message = null;
         String expect = "PAID\n"+"null"+"\n"+"null";
 
-        IPDFWriter pdfWriter = new PDFWriter();
+        PDFWriter_interface pdfWriter = new PDFWriter();
         pdfWriter.doWrite(header, message,null);
 
         assertEquals(expect,pdfWriter.doRead(null));
