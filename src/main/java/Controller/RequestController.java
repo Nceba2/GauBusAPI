@@ -38,7 +38,7 @@ public class RequestController {
     }
 
     //get a trip by its id
-    @GetMapping("/trips/{id}")
+    @GetMapping("/trips/{ik}")
     JSONObject singleTrip(@PathVariable int ik) {
         tripManager_interface iTripManager = new tripManager();
         return iTripManager.viewTrip(ik);
@@ -52,14 +52,14 @@ public class RequestController {
     }
 
     //reschedule trip by its id
-    @PostMapping("/trips/reschedule/{id}")
+    @PostMapping("/trips/reschedule/{ik}")
     JSONObject rescheduleTrip(@RequestBody JSONObject trip, @PathVariable int ik) {
         tripManager_interface iTripManager = new tripManager();
         return iTripManager.rescheduleTrip(trip,ik);
     }
 
     //delete a trip using its id
-    @DeleteMapping("/trips/{id}")
+    @DeleteMapping("/trips/{ik}")
     JSONObject cancelTrip(@PathVariable int ik) {
         tripManager_interface iTripManager = new tripManager();
         return iTripManager.cancelTrip(ik);

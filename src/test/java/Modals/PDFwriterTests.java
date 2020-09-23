@@ -1,6 +1,6 @@
 package Modals;
-import Model.PDFWriter_interface;
-import Model.PDFWriter;
+import Services.PDFWriter_interface;
+import Services.PDFWriter;
 import com.itextpdf.text.DocumentException;
 import org.junit.Test;
 import org.junit.runner.RunWith;
