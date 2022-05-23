@@ -5,7 +5,6 @@ import Services.DatabaseService_interface;
 import org.json.simple.JSONObject;
 
 import java.sql.ResultSet;
-import java.sql.Statement;
 
 public class tripManager implements tripManager_interface {
     private JSONObject results;
@@ -28,10 +27,10 @@ public class tripManager implements tripManager_interface {
             System.out.println("results: "+results);
 
             return results;
-        }catch (Exception e){
+        }catch (Exception erl){
             results = new JSONObject();
             results.put("results","failed");
-            System.out.println(e);
+            System.out.println(erl);
             return results;
         }
     }
@@ -73,10 +72,10 @@ public class tripManager implements tripManager_interface {
             System.out.println("results: "+results);
 
             return results;
-        }catch (Exception e){
+        }catch (Exception erl){
             results = new JSONObject();
             results.put("results","failed");
-            System.out.println(e);
+            System.out.println(erl);
             return results;
         }
     }
@@ -99,10 +98,10 @@ public class tripManager implements tripManager_interface {
             System.out.println("results: "+results);
 
             return results;
-        }catch (Exception e){
+        }catch (Exception erl){
             results = new JSONObject();
             results.put("results","failed");
-            System.out.println(e);
+            System.out.println(erl);
             return results;
         }
     }
@@ -125,10 +124,10 @@ public class tripManager implements tripManager_interface {
             System.out.println("results: "+results);
 
             return results;
-        }catch (Exception e){
+        }catch (Exception erl){
             results = new JSONObject();
             results.put("results","failed");
-            System.out.println(e);
+            System.out.println(erl);
             return results;
         }
     }

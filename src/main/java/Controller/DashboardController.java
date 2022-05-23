@@ -21,7 +21,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 @RestController
 @RequestMapping("/api")
-public class RequestController {
+public class DashboardController {
 //this class has all request that can be done over the application or browser
 //i use ik = identification key instead of id, they serve the same purpose
 //this comments will split the class into sections, guiding you which request belongs where

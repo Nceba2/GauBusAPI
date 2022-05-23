@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c12a6f1e-c527-4712-9e4f-b0a8ec13ea16" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/RequestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/RequestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/PDFtickets/null.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PDFtickets/null.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/PDFtickets/test.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PDFtickets/test.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/tripManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/tripManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gaubusapi/GauBusAPI/GauBusApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaubusapi/GauBusAPI/GauBusApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gaubusapi/GauBusAPI/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaubusapi/GauBusAPI/ServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Controller/DashboardControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Controller/DashboardControllerTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Controller/RequestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/RequestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gaubusapi/GauBusAPI/GauBusApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gaubusapi/GauBusAPI/GauBusApiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gaubusapi/GauBusAPI/ServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gaubusapi/GauBusAPI/ServletInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Controller/RequestControllerTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +31,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
+        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -31,17 +58,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nceba/OneDrive/Documents/GitHub/GauBusAPI&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\acer\Documents\GitHub\GauBusAPI" />
     </key>
   </component>
-  <component name="RunManager" selected="Mvn.GauBusAPI ">
+  <component name="RunManager" selected="Application.GauBusApiApplication">
+    <configuration name="GauBusApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gaubusapi.GauBusAPI.GauBusApiApplication" />
+      <module name="GauBusAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gaubusapi.GauBusAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in GauBusAPI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GauBusAPI" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,11 +122,13 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.GauBusApiApplication" />
       <item itemvalue="JUnit.All in GauBusAPI" />
       <item itemvalue="Mvn.GauBusAPI " />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GauBusApiApplication" />
         <item itemvalue="JUnit.All in GauBusAPI" />
       </list>
     </recent_temporary>
@@ -96,35 +144,20 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="1494" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603126485932">
-      <screen x="1366" y="0" width="1280" height="680" />
-    </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1603099429318" />
-    <state x="1494" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1603126485932" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1603129846843">
-      <screen x="1366" y="0" width="1280" height="680" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1603099449164" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1603129846843" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1603129846843">
-      <screen x="1366" y="0" width="1280" height="680" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1603099449164" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1603129846843" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1603129846842">
-      <screen x="1366" y="0" width="1280" height="680" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1603099449163" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1603129846842" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1603129846843">
-      <screen x="1366" y="0" width="1280" height="680" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1603099449164" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.680@1366.0.1280.680" timestamp="1603129846843" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1603099393616">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1603099393616" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GauBusAPI$GauBusApiApplication.ic" NAME="GauBusApiApplication Coverage Results" MODIFIED="1652972055361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gaubusapi.GauBusAPI.*</FILTER>
+    </SUITE>
   </component>
 </project>
