@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c12a6f1e-c527-4712-9e4f-b0a8ec13ea16" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/PDFtickets/null.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PDFtickets/null.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/PDFtickets/test.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PDFtickets/test.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/DashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/tripManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/tripManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gaubusapi/GauBusAPI/GauBusApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaubusapi/GauBusAPI/GauBusApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gaubusapi/GauBusAPI/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaubusapi/GauBusAPI/ServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Controller/DashboardControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Controller/DashboardControllerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controller/RequestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/RequestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gaubusapi/GauBusAPI/GauBusApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gaubusapi/GauBusAPI/GauBusApiApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gaubusapi/GauBusAPI/ServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gaubusapi/GauBusAPI/ServletInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Controller/RequestControllerTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +46,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nceba/OneDrive/Documents/GitHub/GauBusAPI&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nceba/Documents/Github/GauBusAPI&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
